@@ -132,7 +132,7 @@
     "sourceCodeHash": "0x862b8a2e5dd5cafcda55e35df7713b0d0b7a93d4d6ce29ea9ca53e045bf63cb4"
   },
   "src/L2/SuperchainNFTBridge.sol:SuperchainNFTBridge": {
-    "initCodeHash": "0xb25f6a6e71b3eea1d444d05bd5c588329dcd73a2aee5ac8f92aeb94931e9e512",
+    "initCodeHash": "0x011d420d93921b924c63078c9df0ff706fdf1b04f33d38859f94b15b45ac7a7f",
     "sourceCodeHash": "0x925344d3c5ce24093d21335c3a75b4e41e65887ef983937a9c91fdf368e1ba5a"
   },
   "src/L2/SuperchainTokenBridge.sol:SuperchainTokenBridge": {

@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 // Interfaces
 import { ICrosschainERC721 } from "interfaces/L2/ICrosschainERC721.sol";
-import { IERC721 } from "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+import { IERC721Solady as IERC721 } from "interfaces/vendor/IERC721Solady.sol";
 import { ISemver } from "interfaces/universal/ISemver.sol";
 
 /// @title ISuperchainERC721
