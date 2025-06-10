@@ -2181,7 +2181,7 @@ contract OptimismPortal2_DepositTransaction_Test is OptimismPortal2_TestInit {
         vm.etch(depositor, abi.encodePacked(hex"EF0100", _7702Target));
 
         vm.deal(depositor, _mint);
-        vm.prank(depositor, address(0x0420));
+        vm.prank(depositor, depositor);
         optimismPortal2.depositTransaction{ value: _mint }({
             _to: _to,
             _value: _value,
