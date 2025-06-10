@@ -148,7 +148,6 @@ contract SuperchainNFTBridge_RelayERC721_Test is SuperchainNFTBridge_TestInit {
     )
         public
     {
-        vm.assume(_sender != ZERO_ADDRESS);
         vm.assume(_sender != Predeploys.L2_TO_L2_CROSS_DOMAIN_MESSENGER);
 
         // Expect the revert with `Unauthorized` selector
