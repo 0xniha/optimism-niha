@@ -409,7 +409,7 @@ contract L1ERC721Bridge_Test is L1ERC721Bridge_TestInit {
         vm.etch(alice, abi.encodePacked(hex"EF0100", address(0)));
 
         // Bridge the token.
-        vm.prank(alice);
+        vm.prank(alice, alice);
         l1ERC721Bridge.bridgeERC721(address(localToken), address(remoteToken), tokenId, 1234, hex"5678");
 
         // Token is locked in the bridge.
